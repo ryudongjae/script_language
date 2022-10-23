@@ -7,9 +7,9 @@ function App() {
     return (
       <Wrapper>
         {/* Test라는 컴포넌트를 내보낸다. */}
-        <Test name="react1" color="blue"/>
-        <Test color="red"/>
-        <Test name="react2"/>
+        <Test name="react1" color="blue" isSpecial={true}/>
+        <Test color="red" cisSpecial={false}/>
+        <Test name="react2" isSpecial={false}/>
       </Wrapper>
     );
 }
