@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "./Counter";
+import InputSample from "./InputSample";
 import Test from "./Test";
 import Wrapper from "./Wrapper";
 
@@ -13,7 +14,9 @@ function App() {
       //   <Test name="react2" isSpecial={false}/>
       // </Wrapper>
 
-      <Counter/>
+      //<Counter/>
+
+      <InputSample />
     );
 }
 
